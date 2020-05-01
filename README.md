@@ -14,3 +14,8 @@ Now you are all set to view the project.
 4. For further simulation you will we instructed in the web page such as add to cart will take to "your cart" and then you can choose the more options on cart page.
 
 5. Further you can proceed for checkout fill all your details in proper format such as mail id should be formatted as "id@gmail.com" etc.
+
+
+
+
+I will further attach the screenshots of the webpage in screenshots folder.
