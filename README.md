@@ -19,3 +19,6 @@ Now you are all set to view the project.
 
 
 I will further attach the screenshots of the webpage in screenshots folder.
+
+Here is a similar but cleaner version of this project
+[E-COMMERCE-STORE](https://github.com/vinita2000/E-Commerce-Website)
