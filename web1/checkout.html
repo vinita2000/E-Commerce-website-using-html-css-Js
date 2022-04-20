@@ -20,7 +20,7 @@
 			  <thead>
 				<tr>
 					<th scope="col">Item</th>
-					<th scope="col">Qty</th>
+					<th scope="col">Quantity</th>
 					<th scope="col">Price</th>
 				</tr>
 			  </thead>
@@ -31,16 +31,16 @@
 		 <div id="pricing">
 			
 			<p id="shipping">
-				<strong>Shipping</strong>: <span id="sshipping"></span>
+				<strong>Shipping Item</strong>: <span id="sshipping"></span>
 			</p>
 			
 			<p id="sub-total">
-				<strong>Total</strong>: <span id="stotal"></span>
+				<strong>Total Price</strong>: <span id="stotal"></span>
 			</p>
 		 </div>
 		 
 		 <form action="order.html" method="post" id="checkout-order-form">
-		 	<h2>Your Details</h2>
+		 	<h2>Your Details Bellow</h2>
 		 	
 		 	<fieldset id="fieldset-billing">
 		 		<legend>Billing</legend>
@@ -61,14 +61,16 @@
 		 			<input type="text" name="address" id="address" data-type="string" data-message="This field cannot be empty" />
 		 		</div>
 		 		<div>
-		 			<label for="zip">ZIP Code</label>
+		 			<label for="zip">PIN Code</label>
 		 			<input type="text" name="zip" id="zip" data-type="string" data-message="This field cannot be empty" />
 		 		</div>
 		 		<div>
 		 			<label for="country">Country</label>
 		 			<select name="country" id="country" data-type="string" data-message="This field cannot be empty">
 		 				<option value="">Select</option>
-		 				<option value="De">Denmark</option>
+		 				<option value="De">Australia</option>
+		 				<option value="NZ">NewZealand</option>
+		 				<option value="CA">Canada</option>
 		 				<option value="IN">India</option>
 		 			</select>
 		 		</div>
