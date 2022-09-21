@@ -1,0 +1,20 @@
+{
+    "name": "Furniture-shop",
+    "short_name": "Furniture",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/images/bed1.jpg",
+        "type": "image/jpg", "sizes": "72x72"
+      },
+      {
+        "src": "/images/furnitures.png",
+        "type": "image/png", "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ]
+  }

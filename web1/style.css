@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
-$itemGrow: 1.2;
-$duration: 250ms;
+
 
 
 *{
@@ -639,11 +638,6 @@ h1::after
 
 
 
-
-
-
-
-
 #site-info {
 	height: 3em;
 	width: 100%;
@@ -688,7 +682,7 @@ body#checkout-page #site-info {
 
 .shopping-cart tr:nth-child(even) {
 	background: #fafafa;
-},
+}
 
 .shopping-cart td.pdelete {
 	text-align: center;
