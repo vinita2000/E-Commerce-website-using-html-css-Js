@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Online Store</title>
+<title>Furniture Shop</title>
 <meta charset="utf-8" />
 <meta name="viewpoint" content="width=device-width,initial-scal=1.0">
 <meta http-equip="X-UA-compatible" content="ie=edge">
@@ -11,6 +11,11 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.store.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="manifest" href="manifest.json" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="/images/furnitures.png">
+<meta name="theme-color" content="#4285f4">
+
 </head>
 
 <body>
@@ -62,13 +67,13 @@
 		<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="10000">
-      <img src="images/image1.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+      <img src="/images/image1.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="images/image2.jpeg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+      <img src="/images/image2.jpeg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
     </div>
     <div class="carousel-item">
-      <img src="images/image4.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+      <img src="/images/image4.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -88,19 +93,20 @@
 
 	<!------Featured Categories----->
 	<section class="featured-categories">
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-				<img src="images/bed5.jpg">
+				<img src="/images/furnitures.png">
 				</div>
 				<div class="col-md-3">
-				<img src="images/sofa5.jpg">
+				<img src="/images/sofa5.jpg">
 				</div>
 				<div class="col-md-3">
-				<img src="images/table5.jpg">
+				<img src="/images/table5.jpg">
 				</div>
 				<div class="col-md-3">
-				<img src="images/mirror5.jpg">
+				<img src="/images/mirror5.jpg">
 				</div>
 				
 			
@@ -119,7 +125,7 @@
 		<div class="row">
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/mirror1.jpg">
+				<img src="/images/mirror1.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -146,7 +152,7 @@
 			<div class="product-description" data-name="Mirror" data-price="10">
 				
 				<p class="product-price">&euro; 10</p>
-				<form class="add-to-cart" action="cart.html" method="post">
+				<form class="add-to-cart" action="/cart.html" method="post">
 							<div>
 								<label for="qty-2">Quantity</label>
 								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
@@ -161,7 +167,7 @@
 			
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/sofa1.jpg">
+				<img src="/images/sofa1.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -204,7 +210,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/table1.jpg">
+				<img src="/images/table1.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -247,7 +253,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/bed1.jpg">
+				<img src="/images/bed1.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -293,7 +299,7 @@
 	<div class="row">
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/mirror2.jpg">
+				<img src="/images/mirror2.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -335,7 +341,7 @@
 			
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/sofa2.jpg">
+				<img src="/images/sofa2.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -378,7 +384,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/table2.jpg">
+				<img src="/images/table2.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -421,7 +427,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/bed2.jpg">
+				<img src="/images/bed2.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -480,7 +486,7 @@
 		<div class="row">
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/mirror3.jpg">
+				<img src="/images/mirror3.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -522,7 +528,7 @@
 			
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/sofa3.jpg">
+				<img src="/images/sofa3.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -566,7 +572,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/table3.jpg">
+				<img src="/images/table3.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -609,7 +615,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/bed3.jpg">
+				<img src="/images/bed3.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -655,7 +661,7 @@
 	<div class="row">
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/mirror4.jpg">
+				<img src="/images/mirror4.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -695,7 +701,7 @@
 			
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/sofa4.jpg">
+				<img src="/images/sofa4.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -738,7 +744,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/table4.jpg">
+				<img src="/images/table4.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
@@ -781,7 +787,7 @@
 
 			<div class="col-md-3">
 			<div class="product-top">
-				<img src="images/bed4.jpg">
+				<img src="/images/bed4.jpg">
 				<div class="overlay-right">
 					<button type="button" class="btn btn-secondary" title="Quick Shop">
 					<i class="fa fa-eye"></i>
